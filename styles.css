@@ -1,0 +1,114 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Space Mono", monospace;
+      }
+
+      body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+      }
+
+
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 70vh;
+      }
+
+      img {
+        width: 100%;
+        max-width: 540px;
+      }
+
+      .image-sc {
+        width: 40%;
+        margin-right: 100px;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .right-panel {
+        width: 50%;
+      }
+      .attr {
+        text-align: center;
+        color: #bdbdbd;
+        font-size: 14px;
+        line-height: 17px;
+        width: 100%;
+        position: absolute;
+        bottom:0;
+        padding: 20px;
+      }
+      @media only screen and (max-width: 430px) {
+        main {
+          flex-direction: column;
+          justify-content: flex-start;
+          height:min-content;
+          margin-bottom: 100px;
+        }
+        .image-sc {
+          width: 80%;
+        margin-right: 0;
+      }
+
+
+        img {
+          max-width: 100%;
+        }
+
+        .right-panel {
+        width: 100%;
+      }
+
+      .attr {
+       position: relative;
+      }
+      }
+
+
+      .top-bar {
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        padding: 40px;
+      }
+
+      .title,
+      .back-to-hp {
+        font-family: "Inconsolata", monospace;
+        text-transform: uppercase;
+      }
+
+
+      .title-main {
+        font-size: 55px;
+        font-weight: bold;
+        max-width: 500px;
+        color: #333333;
+        margin-bottom: 16px;
+        padding: 20px;
+      }
+      
+      .subtitle {
+        font-size: 18px;
+        letter-spacing: -0.035em;
+        line-height: 36px;
+        width: 400px;
+        margin-bottom: 44px;
+        padding:  0 20px;
+      }
+
+      .back-to-hp {
+        padding: 24px 43px;
+        color: white;
+        background-color: #333;
+        font-size: 14px;
+        line-height: 21px;
+        margin-left: 20px;
+      }
